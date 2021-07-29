@@ -214,7 +214,7 @@ bool contains (SLinkedList& list, Soldier soldier){
     SoldierNode* current= list.head;
     while(current != NULL)
     {
-        if(current->data.HP ==soldier.HP && current->data.ID==soldier.ID && current->data.isSpecial==soldier.isSpecial) return true;
+        if(current->data.HP == soldier.HP && current->data.ID == soldier.ID && current->data.isSpecial==soldier.isSpecial) return true;
         current = current->next;
     }
     return false;
