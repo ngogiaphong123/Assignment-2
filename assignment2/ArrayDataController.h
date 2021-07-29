@@ -16,7 +16,7 @@
 
 //Functions used to manage Array
 void print(Array& array){
-    if (array.size<=0) {
+    if (!array.size) {
         std::cout << "Array is empty" << endl;
         return;
     }
